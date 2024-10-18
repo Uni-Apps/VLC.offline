@@ -1,0 +1,35 @@
+repo="VLC.offline"
+name="vlc"
+bin=$name
+
+type="apt"
+
+package=(
+    "libvlccore9"
+    "libqt5x11extras5"
+    "libqt5widgets5t64"
+
+    "libqt5svg5"
+    "libqt5gui5t64"
+    "libqt5core5t64"
+    "libva2"
+    "libva-x11-2"
+    "libva-wayland2"
+    "libva-drm2"
+    "libavutil59"
+    "libavcodec61"
+    "liba52-0.7.4"
+    "libaribb24-0t64"
+    "libass9"
+    "vlc-plugin-video-output"
+    "vlc-plugin-qt"
+    "vlc-data"
+    "vlc-plugin-base"
+    "libvlc-bin"
+    "vlc-bin"
+    "vlc"
+    )
+
+# Can't Find:
+    # "qtbase-abi-5-15-15"
+    # "vlc-plugin-abi-3-0-0ft64"
